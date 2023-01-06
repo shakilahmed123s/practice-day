@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    /* background-color: rgb(0, 0, 0); */
+    height: 100vh;
+    /* width: 100%; */
+    background-image: url(./images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;   
+    
+}
+.main{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    /* position: absolute; */
+    padding-top: 200px;
+}
+.titel{
+    font-size: 50px;
+    
+}
+p{
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+.btn{
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: tomato;
+    border: none;
+    border-radius: 3px;
+
+}
+.donet{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+}
+.main-donet{
+    text-align: center;
+}
+.donate-titel{
+    font-size: 50px;
+    padding-top: 40px;
+
+}
+.donate-blog{
+    font-size: 20px;
+    padding: 15px 0px;
+    color: rgba(0, 0, 0, 0.548);
+}
+.taka ul {
+    display: flex;
+    justify-content: center;
+
+}
+.taka li{
+    list-style: none;
+}
+.taka ul li{
+    font-size: 30px;
+    padding: 20px 10px;
+    border: 3px solid rgba(255, 255, 255, 0.849);
+    margin: 10px;
+    background-color: rgb(253, 247, 245);
+    border-radius: 5px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.699);
+
+}
+.taka ul li:hover{
+    border: 3px solid rgb(255, 104, 104);
+    color: rgb(250, 93, 93);
+}
+.line{
+    padding: 20px;
+}
+.btn-donet{
+    padding: 10px 25px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 4px;
+    font-size: 22px;
+}
+.last-donate{
+    font-size: 40px;
+    padding: 50px 0px 10px 0px;
+}
+.last-para{
+    color: rgba(0, 0, 0, 0.651);
+    font-size: 22px;
+}
+.boxandimage{
+    width: 100%;
+    height: 100vh;
+}
+.box-3{
+    display: flex;
+    justify-content: center;
+    margin: 0px 150px;
+
+}
+.icon img{
+    height: 40px;
+    width: 40px;
+    padding: 20px 0px 10px 10px;
+}
+.box1{
+    text-align: left;
+   
+}
+.box2{
+    height: 300px;
+    background-color: rgba(252, 192, 234, 0.363);
+    width: ;
+    margin: 20px;
+    
+
+}
+.box3{
+    height: 300px;
+    background-color: rgba(95, 128, 136, 0.11);
+    width: ;
+    margin: 20px;
+    
+
+}
+.box1{
+    height: 300px;
+    background-color: rgba(230, 231, 151, 0.205);
+    width: ;
+    margin: 20px;
+    
+
+}
+.image-titel{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 150px;
+}
+.box-image img{
+    height: 300px;
+    width: 350px;
+    padding-right: 50px;
+}
+.titel-box{
+    margin: 20px;
+}
+.btn-how{
+    padding: 10px 20px;
+    background-color: tomato;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 22px;
+}
+.btn-how:hover{
+    /* color: rgba(0, 0, 0, 0.274); */
+    background-color: red;
+}
+.conteinar{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 170px;
+    padding-top: 100px;
+}
+.image-2 img{
+    height: 350px;
+    width: 350px;
+}
+.text-area{
+    padding-right: 400px;
+}
+.btn-to{
+    background-color: tomato;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+.get-my{
+    font-size: 40px;
+    text-align: center;
+}
+.input-class{
+    position: relative;
+    width: 100%;
+
+}
+.input-div{
+    height: 150px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: rgba(214, 189, 157, 0.452);
+    /* align-items: center; */
+   /* position: absolute; */
+   /* left: 0; */
+   /* right: 444px; */
+   /* align-items: center; */
+   justify-content: center;
+   margin: 10px 333px;
+   position: relative;
+
+}
+.input{
+    margin: 10px 220px;
+    height: 40px;
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: azure;
+}
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: rgba(7, 5, 19, 0.959);
+    margin-top: 100px;
+}
+.footer-blog{
+    color: tomato;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer-para{
+    color: rgba(245, 222, 179, 0.753);
+    text-align: center;
+}
